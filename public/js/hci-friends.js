@@ -4,6 +4,15 @@
 $(document).ready(function() {
 	initializePage();
 })
+$("h3").click(function(e) {
+	console.log("hi");
+	e.preventDefault();
+	$(this).text(anagrammedName($(this).text()));
+	
+
+
+})
+
 
 /*
  * Function that is called when the document is ready.

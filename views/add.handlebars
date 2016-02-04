@@ -9,7 +9,7 @@
 	<link href="css/bootstrap-theme.css" rel="stylesheet">
 	<link href="css/hci-friends.css" rel="stylesheet">
 	
-	
+	<a href = "index.handlebars"> click me to go back </a>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,9 +26,9 @@
 		<div class = "friend">
 			<img src = "{{imageURL}}" class = "img-responsive">
 			<div class = "test">
-				<a href = "#"><h3>{{name}}</h3></a>
+				<a href = "#"><h3> "{{name}}" </h3></a>
 			</div>	
-			<p> {{description}} </p>
+			<p> "{{description}}" </p>
 		</div>
 		<hr>
 		<form id="addFriendForm" role="form" method="get" action="/add">
